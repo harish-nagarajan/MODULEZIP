@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } finally {
             zis.close();
+            Log.d(TAG, "unzip: Done");
         }
     }
 
