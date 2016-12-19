@@ -92,7 +92,8 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
     }
     
-    //Not working
+    //Add Log everywhere to know where the mistake is
+    //This is a sample git lesson
 
     public static void unzip(File zipFile, File targetDirectory) throws IOException {
         ZipInputStream zis = new ZipInputStream(
