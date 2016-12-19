@@ -115,6 +115,8 @@ public class MainActivity extends AppCompatActivity {
                     Log.d(TAG, "unzip: Done");
                     fout.close();
                 }
+
+
             /* if time should be restored as well
             long time = ze.getTime();
             if (time > 0)
